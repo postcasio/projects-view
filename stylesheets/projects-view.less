@@ -1,0 +1,36 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.projects-view {
+    .projects {
+        margin-left: -10px;
+    }
+    .project {
+        float: left;
+        margin: 10px;
+
+        .btn {
+            height: auto;
+            display: block;
+            width: 100%;
+
+            background: @pane-item-background-color;
+
+            &:hover, &:focus {
+                background: @button-background-color-hover;
+                color: @text-color-highlight;
+            }
+        }
+
+        .project-icon {
+            margin-top: 10px;
+            font-family: 'Octicons Regular';
+            display: block;
+            font-size: 72px;
+            line-height: 72px;
+        }
+    }
+}

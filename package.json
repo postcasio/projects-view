@@ -1,0 +1,28 @@
+{
+  "name": "projects-view",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Displays tips about Atom in the background when there are no editors open.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atom/background-tips"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.42.0"
+  },
+  "dependencies": {
+    "season": "^2.0.0",
+    "underscore-plus": "1.x"
+  },
+  "bugs": {
+    "url": "https://github.com/atom/background-tips/issues"
+  },
+  "homepage": "https://github.com/atom/background-tips",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
+}
